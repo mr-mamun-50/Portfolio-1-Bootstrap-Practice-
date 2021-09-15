@@ -41,9 +41,7 @@
     background-clip: text;
 }
 
-
 /* navigation started */
-
 
 /* banner area started */
 
@@ -76,14 +74,12 @@
     font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-image>img {
+.site-main .site-banner .banner-image > img {
     padding: 5rem 0;
     width: 90rem;
 }
 
-
 /* banner area ended */
-
 
 /* about area started */
 
@@ -91,19 +87,17 @@
     padding: 5rem 5rem;
 }
 
-.site-main .about-area .about-title h2>span {
+.site-main .about-area .about-title h2 > span {
     display: block;
     font: normal bold 49px/60px var(--raleway);
     letter-spacing: 10px;
 }
 
-.site-main .about-area .about-title .paragraph>p {
-    padding: .2rem 0;
+.site-main .about-area .about-title .paragraph > p {
+    padding: 0.2rem 0;
 }
 
-
 /* about area ended */
-
 
 /* Brand area started */
 
@@ -117,21 +111,21 @@
     justify-content: center;
 }
 
-.site-main .brand-area .first-row .col-lg-4>.single-brand {
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 1.8rem 0;
-    margin: .8rem 0;
+    margin: 0.8rem 0;
     width: 180px;
     height: 100px;
-    transition: transform .4s ease;
+    transition: transform 0.4s ease;
 }
 
-.site-main .brand-area .first-row .col-lg-4>.single-brand>img {
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
     width: 90px;
 }
 
-.site-main .brand-area .first-row .col-lg-4>.single-brand:hover {
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
     box-shadow: var(--box-shadow);
     transform: scale(1.05);
 }
@@ -169,7 +163,7 @@
     z-index: 2;
 }
 
-.site-main .brand-area .experience-area .years-area h2>span {
+.site-main .brand-area .experience-area .years-area h2 > span {
     font: normal 600 22px/30px var(--raleway);
 }
 
@@ -177,9 +171,7 @@
     padding-left: 2rem;
 }
 
-
 /* Brand area ended */
-
 
 /* services area started */
 
@@ -196,25 +188,23 @@
     font-weight: bolder;
 }
 
-.site-main>.services-area .services {
+.site-main > .services-area .services {
     background: rgba(248, 252, 253, 0.973);
     padding: 0.5rem 0;
     width: 16rem;
-    margin: 5rem .5rem;
-    transition: box-shadow .7s ease;
+    margin: 5rem 0.5rem;
+    transition: box-shadow 0.7s ease;
 }
 
-.site-main>.services-area .services:hover {
+.site-main > .services-area .services:hover {
     box-shadow: var(--box-shadow);
 }
 
-.site-main>.services-area .services img {
+.site-main > .services-area .services img {
     width: 110px;
 }
 
-
 /* services area ended */
-
 
 /* project area started */
 
@@ -229,11 +219,11 @@
     text-transform: uppercase;
 }
 
-.site-main .project-area .button-group button+button {
+.site-main .project-area .button-group button + button {
     padding-left: 2rem;
 }
 
-.site-main .project-area .grid .our-project>.title h4 {
+.site-main .project-area .grid .our-project > .title h4 {
     font: normal 25px/12px var(--raleway);
 }
 
@@ -241,5 +231,45 @@
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
-
 /* project area ended */
+
+/* About me started */
+
+.site-main .about-area .about-title p {
+    padding: 1rem 7rem;
+}
+.site-main .about-area .client {
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0;
+}
+.site-main .about-area .client .client-img {
+    padding: 1.5rem;
+    width: auto;
+    border-radius: 50px;
+}
+.site-main .about-area .client .client-img img {
+    width: 120px;
+    border-radius: 50%;
+}
+.site-main .about-area .client .about-client {
+    padding-top: 1.5rem;
+}
+.site-main .about-area .client .about-client h4 {
+    font: normal 500 21px/20px var(--raleway);
+}
+.site-main .about-area .client .about-client p {
+    font-size: 14px;
+}
+.site-main .about-area .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+/* About me ended */
