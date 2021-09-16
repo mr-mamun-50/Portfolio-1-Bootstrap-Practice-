@@ -6,6 +6,7 @@
     text-transform: uppercase;
 }
 
+
 /* button */
 
 .button {
@@ -73,4 +74,16 @@ button:active button:hover .btn:active,
 
 .title-h1 {
     font: normal bold 39px/40px var(--raleway);
+}
+
+.navbar_fixed {
+    position: fixed;
+    width: 100%;
+    top: -1%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
 }
