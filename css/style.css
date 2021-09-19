@@ -147,7 +147,7 @@
 .site-main .brand-area .experience-area .years-area {
     background: url(../img/) no-repeat 45px 20px;
     padding: 3rem 0;
-    width: 40rem;
+    /* width: 40rem; */
     height: 13rem;
     position: relative;
 }
